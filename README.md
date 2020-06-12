@@ -18,7 +18,7 @@ Los **objetivos específicos** están orientados a tener predicciones más preci
 
 ## Actividades
 
-Los objetivos generales se deben cumplir en consecuencia de los objetivos específicos. Para lograr los objetivos específicos se cumplen como sonsecuencia de las siguientes actividades:
+Los objetivos generales se deben cumplir en consecuencia de los objetivos específicos. Para lograr los objetivos específicos se cumplen como consecuencia de las siguientes actividades:
 
 1. Generar DataSets con información ncesaria para cumplir los objetivos específicos
   * Venta, existencia y precio por tienda-dia-modelo-talla
@@ -26,4 +26,8 @@ Los objetivos generales se deben cumplir en consecuencia de los objetivos espec�
 2. Limpieza de datos
   * Actualizar valores negativos de existencia, venta o precio a cero.
   * Estimar la venta de días donde no hubo existencia con algún modelo de ML
-3. Proponer y probar las variables que influyen o determinan el comportamiento de la venta
+3. Proponer y probar las variables que influyen o determinan el comportamiento de la venta.
+  * Construir la matriz de correlación con las variables que se tienen para identificar numéricamente su participación en la venta
+  * Probar la incorporación de cada varibale en la mejora de la precisión
+4. Construir la estructura de la red neuronal para hacer el pronóstico de la demanda por modelo
+  * 
