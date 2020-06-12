@@ -18,7 +18,7 @@ Los **objetivos específicos** están orientados a tener predicciones más preci
 
 ## Actividades
 
-Los objetivos generales se deben cumplir en consecuencia de los objetivos específicos. Para lograr los objetivos específicos se cumplen como consecuencia de las siguientes actividades:
+Los objetivos generales se deben cumplir en consecuencia de los objetivos específicos. Para lograr los objetivos específicos se deben ejecutar las siguientes actividades:
 
 1. Generar DataSets con información ncesaria para cumplir los objetivos específicos
   * Venta, existencia y precio por tienda-dia-modelo-talla
