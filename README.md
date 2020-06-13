@@ -20,21 +20,21 @@ Los **objetivos específicos** están orientados a tener predicciones más preci
 
 Los objetivos generales se deben cumplir en consecuencia de los objetivos específicos. Para lograr los objetivos específicos se deben ejecutar las siguientes actividades:
 
-1. Generar DataSets con información ncesaria para cumplir los objetivos específicos
-  * Venta, existencia y precio por tienda-dia-modelo-talla
-  * Segmentación y catálogo de cada modelo
-  * Imágen y clasificación de artículos (Bueno, Regular o Riesgo)
+1. Generar DataSets con información ncesaria para cumplir los objetivos específicos.
+  * Venta, existencia y precio por tienda-dia-modelo-talla.
+  * Segmentación y catálogo de cada modelo.
+  * Imágen de artículos.
 2. Limpieza de datos
   * Actualizar valores negativos de existencia, venta o precio a cero.
-  * Estimar la venta de días donde no hubo existencia con algún modelo de ML
+  * Estimar la venta de días donde no hubo existencia con algún modelo de ML.
 3. Proponer y probar las variables que influyen o determinan el comportamiento de la venta.
-  * Construir la matriz de correlación con las variables que se tienen para identificar numéricamente su participación en la venta
-  * Probar la incorporación de cada varibale en la mejora de la precisión
+  * Construir la matriz de correlación con las variables que se tienen para identificar numéricamente su participación en la venta.
+  * Probar la incorporación de cada varibale en la mejora de la precisión.
 4. Construir modelo de clasificación de artículos.
   * Crear un dataset con las variables e imágenes que identifiquen a un artículo como Bueno, Regular o Riesgo.
   * Entrenar un modelo de Machine Learning que clasifique un artículo como Bueno, Regular o Riesgo de acuerdo a sus características de imágen, precio, etc.
   * Estimar las ventas netas que se tendrá de un modelo de acuerdo a su clasificación y características.
-5. Construir la estructura de la red neuronal para hacer el pronóstico de la demanda por modelo
+5. Construir la estructura de la red neuronal para hacer el pronóstico de la demanda por modelo.
   * Entrenar un modelo de Series de Tiempo en algún servicio como Amazon, Microsoft Azure o Google para generar el pronóstico de la demanda por cada artículo en un horizonte de 6 a 8 meses.
-6. Reportar resultados
-  * Reportar el grado de precisión de cada modelo con el dataset de test
+6. Reportar resultados.
+  * Reportar el grado de precisión de cada modelo con el dataset de test.
