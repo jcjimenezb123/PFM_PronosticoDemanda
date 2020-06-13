@@ -23,7 +23,7 @@ Los objetivos generales se deben cumplir en consecuencia de los objetivos espec�
 1. Generar DataSets con información ncesaria para cumplir los objetivos específicos
   * Venta, existencia y precio por tienda-dia-modelo-talla
   * Segmentación y catálogo de cada modelo
-  * Clasificación e imágen de artículos en Bueno Regular o Riesgo
+  * Imágen y clasificación de artículos (Bueno, Regular o Riesgo)
 2. Limpieza de datos
   * Actualizar valores negativos de existencia, venta o precio a cero.
   * Estimar la venta de días donde no hubo existencia con algún modelo de ML
