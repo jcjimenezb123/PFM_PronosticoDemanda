@@ -20,9 +20,9 @@ Los **objetivos específicos** están orientados a tener predicciones más preci
 
 Los objetivos generales se deben cumplir en consecuencia de los objetivos específicos. Para lograr los objetivos específicos se deben ejecutar las siguientes actividades:
 
-1. Generar DataSets con información ncesaria para cumplir los objetivos específicos.
+1. Generar DataSets con información necesaria para cumplir los objetivos específicos.
   * Venta, existencia y precio por tienda-dia-modelo-talla.
-  * Segmentación y catálogo de cada modelo.
+  * Segmentación, catálogo y página de cada modelo.
   * Imágen de artículos.
 2. Limpieza de datos
   * Actualizar valores negativos de existencia, venta o precio a cero.
@@ -31,10 +31,10 @@ Los objetivos generales se deben cumplir en consecuencia de los objetivos espec�
   * Construir la matriz de correlación con las variables que se tienen para identificar numéricamente su participación en la venta.
   * Probar la incorporación de cada variable y determinar la mejora de la precisión.
 4. Construir modelo de clasificación de artículos buenos regulares y riesgo.
-  * Aplicar un modelo de clasificación para determinar cuántos grupos se pueden definir en una misma familia con respecto a sus ventas.
+  * Aplicar un modelo de clasificación para determinar cuántos grupos se pueden identificar en una misma familia con respecto a sus ventas.
   * Una vez encontrados los grupos, asociar las imágenes de los artículos a su grupo correspondiente.
   * Entrenar un modelo de Machine Learning que clasifique un artículo como Bueno, Regular o Riesgo de acuerdo a sus características de imágen, precio, etc.
-  * Estimar las ventas netas que se tendrá de un modelo de acuerdo a su clasificación y características.
+  * Estimar las ventas que se tendrá de un modelo de acuerdo a su clasificación y características.
 5. Construir la estructura de la red neuronal para hacer el pronóstico de la demanda por modelo.
   * Entrenar un modelo de Series de Tiempo en algún servicio como Amazon, Microsoft Azure o Google para generar el pronóstico de la demanda por cada artículo en un horizonte de 6 a 8 meses.
 6. Reportar resultados.
