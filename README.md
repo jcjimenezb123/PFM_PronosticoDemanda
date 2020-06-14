@@ -29,7 +29,7 @@ Los objetivos generales se deben cumplir en consecuencia de los objetivos espec�
   * Estimar la venta de días donde no hubo existencia con algún modelo de ML.
 3. Proponer y probar las variables que influyen o determinan el comportamiento de la venta.
   * Construir la matriz de correlación con las variables que se tienen para identificar numéricamente su participación en la venta.
-  * Probar la incorporación de cada varibale en la mejora de la precisión.
+  * Probar la incorporación de cada variable y determinar la mejora de la precisión.
 4. Construir modelo de clasificación de artículos buenos regulares y riesgo.
   * Aplicar un modelo de clasificación para determinar cuántos grupos se pueden definir en una misma familia con respecto a sus ventas.
   * Una vez encontrados los grupos, asociar las imágenes de los artículos a su grupo correspondiente.
