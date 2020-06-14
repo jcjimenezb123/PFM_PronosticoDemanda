@@ -31,7 +31,8 @@ Los objetivos generales se deben cumplir en consecuencia de los objetivos espec�
   * Construir la matriz de correlación con las variables que se tienen para identificar numéricamente su participación en la venta.
   * Probar la incorporación de cada varibale en la mejora de la precisión.
 4. Construir modelo de clasificación de artículos.
-  * Crear un dataset con las variables e imágenes que identifiquen a un artículo como Bueno, Regular o Riesgo.
+  * Aplicar un modelo de clasificación para determinar cuántos grupos se pueden definir en una misma familia con respecto a sus ventas.
+  * Una vez encontrados los grupos, asociar las imágenes de los artículos a su grupo correspondiente.
   * Entrenar un modelo de Machine Learning que clasifique un artículo como Bueno, Regular o Riesgo de acuerdo a sus características de imágen, precio, etc.
   * Estimar las ventas netas que se tendrá de un modelo de acuerdo a su clasificación y características.
 5. Construir la estructura de la red neuronal para hacer el pronóstico de la demanda por modelo.
