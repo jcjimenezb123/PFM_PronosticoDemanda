@@ -13,7 +13,7 @@ Los **objetivos específicos** están orientados a tener predicciones más preci
 
 * Proponer modelos de Machine Learning para determinar las variables más importantes que influyen en la venta de los artículos.
 * Proponer modelos que mediante un entrenamiento puedan determinar los pesos específicos que tiene cada variable en el pronóstico particular de cada artículo.
-* Proponer modelos que determinen la clasificación de un modelo como Bueno, Regular o Riesgo analizando las características de la imagen del artículos
+* Proponer modelos que determinen la clasificación de un artículo como Bueno, Regular o Riesgo analizando las características de la imagen del artículos
 * Proponer modelos de Machine Learning para ajustar las demandas de los artículos de acuerdo al comportamiento de ventas.
 
 ## Actividades
