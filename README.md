@@ -34,8 +34,8 @@ Los objetivos generales se deben cumplir en consecuencia de los objetivos espec�
   * Aplicar un modelo de clasificación para determinar cuántos grupos se pueden identificar en una misma familia con respecto a sus ventas.
   * Una vez encontrados los grupos, asociar las imágenes de los artículos a su grupo correspondiente.
   * Entrenar un modelo de Machine Learning que clasifique un artículo como Bueno, Regular o Riesgo de acuerdo a sus características de imágen, precio, etc.
-  * Estimar las ventas que se tendrá de un modelo de acuerdo a su clasificación y características.
-5. Construir la estructura de la red neuronal para hacer el pronóstico de la demanda por modelo.
+  * Estimar las ventas que se tendrá de un artículo de acuerdo a su clasificación y características.
+5. Construir la estructura de la red neuronal para hacer el pronóstico de la demanda por artículo.
   * Crear y entrenar un modelo de Series de Tiempo en algún servicio como Amazon, Microsoft Azure o Google para generar el pronóstico de la demanda por cada artículo en un horizonte de 6 a 8 meses.
 6. Reportar resultados.
   * Reportar el grado de precisión de cada modelo con el dataset de test.
